@@ -1,0 +1,33 @@
+@import "../variables.css";
+
+/* NAV STYLES */
+header nav {
+  width: 100%;
+  height: auto;
+  padding: 1.8rem 0 1.8rem 0; /*Top and bottom padding to 1.8rem*/
+  color: var(--text-color);
+  background: var(--background-color); /*Apply css background variables*/
+}
+
+header nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+header nav ul li {
+  list-style: none;
+  font-size: var(--h6-heading-text);
+  font-family: var(
+    --heading-text-family
+  ); /*applying heading-text-family css variable*/
+  padding: 0.87rem;
+}
+
+header nav ul li:hover {
+  color: var(
+    --hover-color-heading
+  ); /*Applying hover-color-heading scss variable*/
+  cursor: pointer;
+  transition: 0.7s;
+}
