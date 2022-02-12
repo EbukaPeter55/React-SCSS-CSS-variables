@@ -1,0 +1,19 @@
+/* Declare all the variables you want to use here */
+
+:root {
+  /* COLORS */
+  --background-color: #0c0048;
+  --text-color: #ffff;
+  --button-color: purple;
+  --hover-color-heading: burlywood;
+
+  /* FONT */
+  /* font-size */
+  --h1-heading-text: 2rem;
+  --h6-heading-text: 0.87rem;
+  --body-text: 1rem;
+
+  /* font-family */
+  --heading-text-family: "Montserrat", sans-serif;
+  --small-text-family: "Open sans", sans-serif;
+}
